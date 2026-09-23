@@ -8,6 +8,7 @@
     "build:analyze": "tsc && ANALYZE=true vite build",
     "preview": "vite preview",
     "test": "vitest",
+    "bench": "vitest bench --run",
     "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
